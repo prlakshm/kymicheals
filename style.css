@@ -1,94 +1,111 @@
-:root {
-  --dl-color-gray-500: #595959;
-  --dl-color-gray-700: #999999;
-  --dl-color-gray-900: #D9D9D9;
-  --dl-size-size-large: 144px;
-  --dl-size-size-small: 48px;
-  --dl-color-danger-300: #A22020;
-  --dl-color-danger-500: #BF2626;
-  --dl-color-danger-700: #E14747;
-  --dl-color-gray-black: #000000;
-  --dl-color-gray-white: #FFFFFF;
-  --dl-size-size-medium: 96px;
-  --dl-size-size-xlarge: 192px;
-  --dl-size-size-xsmall: 16px;
-  --dl-space-space-unit: 16px;
-  --dl-color-primary-100: #003EB3;
-  --dl-color-primary-300: #0074F0;
-  --dl-color-primary-500: #14A9FF;
-  --dl-color-primary-700: #85DCFF;
-  --dl-color-success-300: #199033;
-  --dl-color-success-500: #32A94C;
-  --dl-color-success-700: #4CC366;
-  --dl-size-size-xxlarge: 288px;
-  --dl-size-size-maxwidth: 1400px;
-  --dl-radius-radius-round: 50%;
-  --dl-space-space-halfunit: 8px;
-  --dl-space-space-sixunits: 96px;
-  --dl-space-space-twounits: 32px;
-  --dl-radius-radius-radius2: 2px;
-  --dl-radius-radius-radius4: 4px;
-  --dl-radius-radius-radius8: 8px;
-  --dl-space-space-fiveunits: 80px;
-  --dl-space-space-fourunits: 64px;
-  --dl-space-space-threeunits: 48px;
-  --dl-space-space-oneandhalfunits: 24px;
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+
+header {
+  background-color: #4E3D42;
+  padding: 1rem 3rem 0rem 3rem;
 }
-.button {
-  color: var(--dl-color-gray-black);
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.input {
-  color: var(--dl-color-gray-black);
-  cursor: auto;
-  padding: 0.5rem 1rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+
+.title h1 {
+  font-family: 'Leckerli One', cursive;
+  font-size: 3rem;
+  font-weight: 100;
+  color: white;
+  margin: 0;
 }
-.textarea {
-  color: var(--dl-color-gray-black);
-  cursor: auto;
-  padding: 0.5rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+
+.search-bar {
+  display: flex;
+  align-items: center;
 }
-.list {
-  width: 100%;
-  margin: 1em 0px 1em 0px;
-  display: block;
-  padding: 0px 0px 0px 1.5rem;
-  list-style-type: none;
-  list-style-position: outside;
+
+.search-bar input {
+  background-color: white;
+  color: #4E3D42; /* Set text color to brown */
+  border: 1px solid; /* Add border with the same color */
+  padding: 0rem 1rem;
+  font-family: 'Kadwa', serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  height: 2.5rem;
+  width: 30rem;
 }
-.list-item {
-  display: list-item;
+
+.search-bar input::placeholder {
+  color: #4E3D42; /* Set placeholder text color to brown */
 }
-.teleport-show {
-  display: flex !important;
-  transform: none !important;
+
+.cart {
+  height: fit-content;
+  padding-top: 0.25rem;
+  padding-right: 7rem;
 }
-.Content {
-  font-size: 16px;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: 1.15;
-  text-transform: none;
-  text-decoration: none;
+
+/* Add button styling */
+button,
+.cart-button,
+.search-button {
+  height: 2.57rem;
+  background-color: white;
+  color: #4E3D42;
+  border: 1px solid;
+  padding: 0rem 1rem;
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-left: 0.5rem;
 }
-.Heading {
-  font-size: 32px;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 1.15;
-  text-transform: none;
-  text-decoration: none;
+
+/* Add hover effect to buttons */
+button:hover,
+.cart-button:hover,
+.search-button:hover {
+  background-color: #84957E; /* Change background color on hover */
+  color: white;
+  border: 2px solid white;
+}
+
+/* Add active effect to buttons */
+button:active,
+.cart-button:active,
+.search-button:active {
+  background-color: #84957E; /* Change background color when clicked */
+  color: white;
+  border: 2px solid white;
+}
+
+/* Add cursor pointer to indicate clickable */
+button,
+.cart-button,
+.search-button {
+  cursor: pointer;
+}
+
+
+.categories {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around; /* Evenly space items */
+  width: 100%; /* Take full width of the header */
+}
+
+
+.categories .category {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline; /* Add underline */
+  margin: 0 1rem;
 }
