@@ -47,7 +47,17 @@ header {
 .cart {
   height: fit-content;
   padding-top: 0.25rem;
-  padding-right: 7rem;
+  padding-right: 4rem;
+}
+
+.cart-button img {
+  height: 2rem; /* Set the height of the image */
+  margin-right: 0.5rem; /* Add margin to separate the image from the text */
+}
+
+.search-button img {
+  height: 2rem; /* Set the height of the image */
+  margin: 0rem 0.5rem;
 }
 
 /* Add button styling */
@@ -58,13 +68,17 @@ button,
   background-color: white;
   color: #4E3D42;
   border: 1px solid;
-  padding: 0rem 1rem;
+  padding: 0rem 0.5rem;
   font-family: 'Kadwa', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: bold;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   margin-left: 0.5rem;
+
+  display: flex;
+  align-items: center; /* Align items vertically */
+  cursor: pointer;
 }
 
 /* Add hover effect to buttons */
@@ -85,13 +99,6 @@ button:active,
   border: 2px solid white;
 }
 
-/* Add cursor pointer to indicate clickable */
-button,
-.cart-button,
-.search-button {
-  cursor: pointer;
-}
-
 
 .categories {
   padding-top: 2rem;
@@ -100,7 +107,6 @@ button,
   width: 100%; /* Take full width of the header */
 }
 
-
 .categories .category {
   font-family: 'Kadwa', sans-serif;
   font-size: 1.5rem;
@@ -108,4 +114,24 @@ button,
   color: white;
   text-decoration: underline; /* Add underline */
   margin: 0 1rem;
+
+  display: flex; 
+  align-items: baseline; 
 }
+
+.categories .category:hover,
+.categories .category:active{
+  color:#84957E
+}
+
+.categories .category:hover img, /* Change color on hover */
+.categories .category:active img { /* Change color when clicked */
+  filter: invert(58%) sepia(3%) saturate(1487%) hue-rotate(59deg) brightness(125%) contrast(91%);
+}
+
+.categories .category img {
+  transform: translateY(15%);
+  height: 1rem; /* Set the height of the image */
+  margin-left: 2px;
+}
+
