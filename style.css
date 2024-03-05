@@ -19,6 +19,8 @@ header {
   font-weight: 100;
   color: white;
   margin: 0;
+
+  cursor: pointer; 
 }
 
 .search-bar {
@@ -107,20 +109,22 @@ button:active,
   width: 100%; /* Take full width of the header */
 }
 
-.categories .category {
+.categories .category{
   font-family: 'Kadwa', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
   text-decoration: underline; /* Add underline */
+  cursor: pointer; 
   margin: 0 1rem;
 
   display: flex; 
   align-items: baseline; 
 }
 
+
 .categories .category:hover,
-.categories .category:active{
+.categories .category:active {
   color:#84957E
 }
 
@@ -135,3 +139,138 @@ button:active,
   margin-left: 2px;
 }
 
+.section-1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 4rem 0;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center */
+  flex-direction: column;
+  margin-top: -2rem;
+}
+
+.forms h2 {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4E3D42;
+  text-decoration: underline; /* Add underline */
+  cursor: pointer; 
+  align-self: flex-start; /* Right-align the heading */
+
+  margin-left: 2rem;
+  margin-bottom: 0rem;
+}
+
+.forms h2:hover,
+.forms h2:active {
+  color:#84957E
+}
+
+.forms h2 img {
+  transform: translateY(15%);
+  height: 1.5rem; /* Set the height of the image */
+  margin-right: 7px;
+
+  filter: invert(24%) sepia(5%) saturate(1743%) hue-rotate(292deg) brightness(80%) contrast(88%);
+}
+
+.forms h2:hover img, /* Change color on hover */
+.forms h2:active img { /* Change color when clicked */
+  filter: invert(58%) sepia(3%) saturate(1487%) hue-rotate(59deg) brightness(100%) contrast(91%);
+}
+
+.video {
+  padding: 10px; /* Adjust the value as needed */
+  border: 1px solid #4E3D42;
+}
+
+.video iframe {
+  border: 1px solid #4E3D42;
+  cursor: pointer; 
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 7rem 0rem;
+  background-color: #84957E
+}
+
+.section-2 .forms h2 {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+
+  margin-left: -1rem;
+  margin-bottom: 0rem;
+}
+
+.section-2 h2:hover,
+.section-2 h2:active {
+  color:white;
+}
+
+.section-2 img {
+  margin-left: -1.5rem;
+  height:25rem; /* Set the height of the image */
+}
+
+
+.section-3 {
+  background-color: #E3DBDB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem 5rem;
+}
+
+.section-3 h2 {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #4E3D42;
+
+  margin: 0rem;
+}
+
+.section-3 h3 {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4E3D42;
+  line-height: 1.5; /* Adjust the line height for paragraph spacing */
+
+  padding: 0rem 9rem;
+}
+
+.see-more {
+  text-decoration: underline; /* Add underline to the text */
+  cursor: pointer; 
+}
+
+.see-more img {
+  height: 1rem; /* Set the height of the image */
+  margin-left: 2px;
+
+  filter: invert(24%) sepia(5%) saturate(1743%) hue-rotate(292deg) brightness(80%) contrast(88%);
+}
+
+.see-more:hover img, /* Change color on hover */
+.see-more:active img { /* Change color when clicked */
+  filter: invert(58%) sepia(3%) saturate(1487%) hue-rotate(59deg) brightness(100%) contrast(91%);
+}
+
+.see-more:hover, /* Change color on hover */
+.see-more:active {
+  color: #84957E;
+}
