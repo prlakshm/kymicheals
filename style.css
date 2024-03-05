@@ -69,6 +69,13 @@ header {
   margin: 0rem 0.5rem;
 }
 
+.search-button:hover img,
+.cart-button:hover img,
+.search-button:active img,
+.cart-button:active img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(335deg) brightness(150%) contrast(101%);
+}
+
 /* Add button styling */
 button,
 .cart-button,
@@ -471,7 +478,7 @@ footer {
 }
 
 .socials-divider {
-  width: 90%;
+  width: 100%;
   margin: 0 auto; 
   border: none; 
   border-top: 1px solid white;
@@ -481,12 +488,18 @@ footer {
   display: flex;
   align-items: center; /* Align items vertically */
   justify-content: center;
+  height: fit-content;
 }
 
 .socials img {
   cursor: pointer;
   height: 2.2rem;
   padding: 1rem 0.5rem 0.3rem 0.5rem;
+}
+
+.socials img:hover,
+.socials img:active {
+  filter: invert(58%) sepia(7%) saturate(1487%) hue-rotate(59deg) brightness(130%) contrast(91%);
 }
 
 .copyright-divider {
