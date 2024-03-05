@@ -410,8 +410,14 @@ footer {
   margin-top: -0.5rem;
 }
 
-.get-in-touch p .email {
+.get-in-touch p a {
+  color: white;
   text-decoration: underline;
+}
+
+.get-in-touch p a:hover,
+.get-in-touch p al:active {
+  color:#84957E;
 }
 
 .newsletter .sign-up {
