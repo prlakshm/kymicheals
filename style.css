@@ -247,7 +247,7 @@ button:active,
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 4rem 5rem;
 }
 
@@ -256,6 +256,7 @@ button:active,
   font-size: 2rem;
   font-weight: bold;
   color: #4E3D42;
+  width: 80%;
 
   margin: 0rem;
 }
