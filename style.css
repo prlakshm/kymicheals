@@ -156,6 +156,7 @@ button:active,
   justify-content: space-evenly;
   flex-direction: row;
   padding: 4rem 0;
+  flex-wrap: wrap-reverse;
 }
 
 .forms {
@@ -163,7 +164,7 @@ button:active,
   justify-content: center;
   align-items: center; /* Vertically center */
   flex-direction: column;
-  margin-top: -2rem;
+  margin: 2rem 0;
 }
 
 .forms h2 {
@@ -217,7 +218,8 @@ button:active,
   justify-content: space-evenly;
   flex-direction: row;
   padding: 7rem 0rem;
-  background-color: #84957E
+  background-color: #84957E;
+  flex-wrap:wrap;
 }
 
 .section-2 .forms h2 {
@@ -246,8 +248,8 @@ button:active,
   background-color: #E3DBDB;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 4rem 5rem;
 }
 
@@ -256,14 +258,14 @@ button:active,
   font-size: 2rem;
   font-weight: bold;
   color: #4E3D42;
-  width: 80%;
+
 
   margin: 0rem;
 }
 
 .section-3 .services {
-  width: 80%;
   align-items: flex-start;
+  width: 90%;
 }
 
 .section-3 h3 {
@@ -319,7 +321,7 @@ button:active,
   flex-direction: column;
   padding: 0 10rem;
 
-  width:80%
+  width:90%
 }
 
 .staff-member {
@@ -527,7 +529,7 @@ footer {
   align-items: center; /* Align items vertically */
   flex-direction: row;
   justify-content: space-evenly;
-
+  flex-wrap: wrap;
 }
 
 .copyright-info p {
@@ -541,71 +543,27 @@ footer {
 }
 
 
-/* Add media queries for responsiveness */
-
 /* For screens smaller than 768px */
 @media only screen and (max-width: 768px) {
-  header {
-    padding: 1rem; /* Adjust padding */
-  }
-
-  .top-bar {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text */
-  }
-
-  .search-bar input {
-    width: calc(50% - 5rem); /* Make input full width */
-  }
-
-  .categories {
-    flex-wrap: wrap; /* Allow items to wrap */
-    justify-content: center; /* Center items horizontally */
-    margin-top: 1rem; /* Add margin */
-  }
-
   .section-1,
-  .section-2,
-  .section-3,
-  .section-4 {
-    padding: 2rem 1rem; /* Adjust padding */
+  .section-2 {
+    flex-direction: column;
   }
 
-  .forms h2 {
-    margin-left: 0; /* Remove left margin */
-    text-align: center; /* Center text */
+
+  .section-3 .services {
+    width: 110%; /* Your desired width */
   }
 
-  .section-2 img {
-    height: auto; /* Make image responsive */
-    width: 100%; /* Make image full width */
+  .staff {
+    width: 110%;
   }
 
-  .additional-info {
-    flex-direction: row; /* Stack items vertically */
-    align-items:center; /* Center items horizontally */
-    justify-content: space-evenly;
-    padding: 2rem 1rem; /* Adjust padding */
+  /* Add font size adjustments */
+  .title h1 {
+    font-size: 2.5rem; /* Adjust font size */
   }
 
-  .get-in-touch,
-  .newsletter {
-    width: 100%; /* Make width full */
-  }
-
-  .socials {
-    margin-top: 1rem; /* Add margin */
-  }
-
-  .copyright-divider {
-    width: 100%; /* Ensure the divider spans the entire width */
-    margin-left: 0; /* Remove left margin */
-  }
-}
-
-/* For screens smaller than 480px */
-@media only screen and (max-width: 480px) {
   .search-bar input {
     font-size: 1rem; /* Adjust font size */
   }
@@ -618,12 +576,35 @@ footer {
     font-size: 1.2rem; /* Adjust font size */
   }
 
+  .section-3 h2 {
+    font-size: 1.5rem; /* Adjust font size */
+  }
+
   .section-3 h3 {
-    padding: 0rem 1rem; /* Adjust padding */
+    font-size: 1.2rem; /* Adjust font size */
   }
 
   .see-more {
     font-size: 1rem; /* Adjust font size */
+  }
+
+  .newsletter input,
+  .newsletter button {
+    font-size: 1rem; /* Adjust font size */
+  }
+}
+
+/* For screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+  /* Your existing styles */
+  .section-1,
+  .section-2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .section-3 h3 {
+    padding: 0rem 1rem; /* Adjust padding */
   }
 
   .newsletter input,
@@ -634,5 +615,44 @@ footer {
   .socials img {
     height: 2rem; /* Adjust height */
     padding: 0.5rem; /* Adjust padding */
+  }
+
+  /* Add font size adjustments */
+  .title h1 {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .search-bar input {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .categories .category {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .forms h2 {
+    font-size: 1.1rem; /* Adjust font size */
+  }
+
+  .section-3 h2 {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .section-3 h3 {
+    font-size: 12vh; /* Adjust font size */
+  }
+
+  .see-more {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .newsletter input,
+  .newsletter button {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .copyright-info {
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
