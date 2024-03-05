@@ -5,7 +5,7 @@
 
 header {
   background-color: #4E3D42;
-  padding: 1rem 3rem 0rem 3rem;
+  padding: 2rem 3rem 0rem 3rem;
 }
 
 .top-bar {
@@ -13,6 +13,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  margin-left: 3rem;
+
 }
 
 .title h1 {
@@ -365,7 +368,7 @@ button:active,
 
 footer {
   background-color: #4E3D42;
-  padding: 1rem 3rem 0rem 3rem;
+  padding: 1rem 3rem 0.2rem 3rem;
 }
 
 .additional-info {
@@ -459,3 +462,47 @@ footer {
   border: 2px solid white;
 }
 
+.socials-divider {
+  width: 90%;
+  margin: 0 auto; 
+  border: none; 
+  border-top: 1px solid white;
+}
+
+.socials {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+}
+
+.socials img {
+  cursor: pointer;
+  height: 2.2rem;
+  padding: 1rem 0.5rem;
+}
+
+.copyright-divider {
+  width: 100%; /* Ensure the divider spans the entire width */
+  margin: 0; 
+  padding: 0; 
+  border: none; 
+  border-top: 1px solid white;
+}
+
+.copyright-info {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.copyright-info p {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+.copyright-info img {
+  height: 3.2rem;
+}
