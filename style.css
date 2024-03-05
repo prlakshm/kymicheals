@@ -88,17 +88,11 @@ button,
 /* Add hover effect to buttons */
 button:hover,
 .cart-button:hover,
-.search-button:hover {
-  background-color: #84957E; /* Change background color on hover */
-  color: white;
-  border: 2px solid white;
-}
-
-/* Add active effect to buttons */
+.search-button:hover,
 button:active,
 .cart-button:active,
 .search-button:active {
-  background-color: #84957E; /* Change background color when clicked */
+  background-color: #84957E; /* Change background color on hover */
   color: white;
   border: 2px solid white;
 }
@@ -348,7 +342,7 @@ button:active,
 
 .staff-info p {
   font-family: 'Kadwa', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #4E3D42;
   line-height: 1.5; /* Adjust the line height for paragraph spacing */
 
@@ -361,7 +355,107 @@ button:active,
   display: inline;
 }
 
-.staff-info p .heading {
+.staff-info p .label {
   color: #84957E;
+  font-size: 1.1rem;
   font-weight: bold;
 }
+
+/* Footer Styling */
+
+footer {
+  background-color: #4E3D42;
+  padding: 1rem 3rem 0rem 3rem;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start; /* Align items to the start of the container */
+  padding: 2rem 15rem;
+}
+
+.get-in-touch,
+.newsletter {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 27rem;
+}
+
+.get-in-touch h3,
+.newsletter h3 {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.get-in-touch p,
+.newsletter p {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: white;
+  margin-top: -1rem;
+}
+
+.newsletter p {
+  margin-top: -0.5rem;
+}
+
+.get-in-touch p .email {
+  text-decoration: underline;
+}
+
+.newsletter .sign-up {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+  margin-top: 0.2rem;
+}
+
+.newsletter input {
+  background-color: white;
+  color: #4E3D42; /* Set text color to brown */
+  border: 1px solid; /* Add border with the same color */
+  padding: 0rem 1rem;
+  font-family: 'Kadwa', serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  height: 2rem;
+  width: 17rem;
+}
+
+.newsletter input::placeholder {
+  color: #4E3D42; /* Set placeholder text color to brown */
+}
+
+.sign-up-button {
+  height: 2.11rem;
+  background-color: white;
+  color: #4E3D42;
+  border: 1px solid;
+  padding: 0rem 0.5rem;
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-left: 0.5rem;
+
+  display: flex;
+  align-items: center; /* Align items vertically */
+  cursor: pointer;
+}
+
+.sign-up-button:hover,
+.sign-up-button:active {
+  background-color: #84957E; /* Change background color on hover */
+  color: white;
+  border: 2px solid white;
+}
+
