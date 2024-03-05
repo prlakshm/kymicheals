@@ -256,12 +256,12 @@ button:active,
   font-size: 2rem;
   font-weight: bold;
   color: #4E3D42;
-  width: 80%;
 
   margin: 0rem;
 }
 
 .section-3 .services {
+  width: 80%;
   align-items: flex-start;
 }
 
@@ -271,8 +271,6 @@ button:active,
   font-weight: bold;
   color: #4E3D42;
   line-height: 1.5; /* Adjust the line height for paragraph spacing */
-
-  padding: 0rem 9rem;
 }
 
 .see-more {
@@ -326,6 +324,7 @@ button:active,
 .staff-member {
   display: flex;
   margin: 2rem 0;
+  align-items: center;
 }
 
 .staff-image {
