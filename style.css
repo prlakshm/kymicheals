@@ -394,7 +394,8 @@ footer {
   justify-content: space-evenly;
   flex-direction: row;
   align-items: flex-start; /* Align items to the start of the container */
-  padding: 2rem 15rem;
+  padding: 2rem 0;
+  width: 100%;
 }
 
 .get-in-touch,
