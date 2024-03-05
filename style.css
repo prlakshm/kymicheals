@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  margin-left: 3rem;
+  margin-left: 2rem;
 
 }
 
@@ -31,6 +31,8 @@ header {
 .search-bar {
   display: flex;
   align-items: center;
+
+  margin-left: 2rem;
 }
 
 .search-bar input {
@@ -478,12 +480,12 @@ footer {
 .socials img {
   cursor: pointer;
   height: 2.2rem;
-  padding: 1rem 0.5rem;
+  padding: 1rem 0.5rem 0.3rem 0.5rem;
 }
 
 .copyright-divider {
-  width: 100%; /* Ensure the divider spans the entire width */
-  margin: 0; 
+  width: 107%; /* Ensure the divider spans the entire width */
+  margin-left: -3rem; 
   padding: 0; 
   border: none; 
   border-top: 1px solid white;
@@ -499,7 +501,7 @@ footer {
 
 .copyright-info p {
   font-family: 'Kadwa', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: white;
 }
 
