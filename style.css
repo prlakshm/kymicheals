@@ -256,8 +256,13 @@ button:active,
   font-size: 2rem;
   font-weight: bold;
   color: #4E3D42;
+  width: 80%;
 
   margin: 0rem;
+}
+
+.section-3 .services {
+  align-items: flex-start;
 }
 
 .section-3 h3 {
@@ -315,7 +320,7 @@ button:active,
   flex-direction: column;
   padding: 0 10rem;
 
-  width:100%
+  width:80%
 }
 
 .staff-member {
