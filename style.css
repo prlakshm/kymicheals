@@ -581,8 +581,13 @@ footer {
     font-size: 1rem; /* Adjust font size */
   }
 
-  .forms h2 {
+  .section-1 .forms h2 {
     font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .section-2 .forms h2 {
+    font-size: 1.2rem; /* Adjust font size */
+    text-decoration: none;
   }
 
   .section-3 h2 {
@@ -642,8 +647,13 @@ footer {
     font-size: 0.9rem; /* Adjust font size */
   }
 
-  .forms h2 {
+  .section-1 .forms h2 {
     font-size: 1.1rem; /* Adjust font size */
+  }
+
+  .section-2 .forms h2 {
+    font-size: 1.1rem; /* Adjust font size */
+    text-decoration: none;
   }
 
   .section-3 h2 {
