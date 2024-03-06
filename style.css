@@ -552,7 +552,7 @@ footer {
 
 
 /* For screens smaller than 768px */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .section-1, 
   .section-2 {
     padding: 2rem 0;
@@ -606,7 +606,7 @@ footer {
 }
 
 /* For screens smaller than 480px */
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   /* Your existing styles */
   .section-1,
   .section-2 {
