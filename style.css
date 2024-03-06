@@ -553,6 +553,13 @@ footer {
     padding: 4rem 0;
   }
 
+  .section-3 .services {
+    width: 90%;
+  }
+
+  .staff {
+    width: 90%;
+  }
 
   /* Add font size adjustments */
   .title h1 {
