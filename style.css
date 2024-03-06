@@ -231,8 +231,8 @@ button:active,
   text-decoration: none;
 
   margin-bottom: 2rem;
+  flex-wrap: nowrap;
 }
-
 
 
 .section-2 img {
@@ -547,7 +547,7 @@ footer {
 
 
 /* For screens smaller than 768px */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .section-2 {
     padding: 2rem 0;
     flex-direction: column;
