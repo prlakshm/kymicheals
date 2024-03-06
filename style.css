@@ -247,7 +247,7 @@ button:active,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 0rem;
+  padding: 4rem 5rem;
 }
 
 
@@ -263,7 +263,8 @@ button:active,
 
 .section-3 .services {
   align-items: flex-start;
-  width: 70%;
+  width:100%;
+  flex-wrap: wrap;
 }
 
 .section-3 h3 {
@@ -318,8 +319,8 @@ button:active,
   display: flex;
   flex-direction: column;
   padding: 0 10rem;
-
-  width:80%
+  width:100%;
+  flex-wrap: wrap;
 }
 
 .staff-member {
