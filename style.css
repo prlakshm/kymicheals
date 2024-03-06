@@ -552,16 +552,16 @@ footer {
 
 
   .section-3 .services {
-    width: 110%; /* Your desired width */
+    width: 100%; /* Your desired width */
   }
 
   .staff {
-    width: 110%;
+    width: 100%;
   }
 
   /* Add font size adjustments */
   .title h1 {
-    font-size: 2.5rem; /* Adjust font size */
+    font-size: 2rem; /* Adjust font size */
   }
 
   .search-bar input {
