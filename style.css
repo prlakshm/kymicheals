@@ -218,7 +218,6 @@ button:active,
   justify-content: space-evenly;
   flex-direction: row;
   padding: 4rem 0;
-  flex-wrap: wrap;
   background-color: #84957E;
 }
 
