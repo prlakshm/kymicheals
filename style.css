@@ -217,9 +217,15 @@ button:active,
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  align-items: center;
   padding: 7rem 0rem;
   background-color: #84957E;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
+}
+
+.section-2 .content {
+  display: flex;
+  flex-direction: row;
 }
 
 .section-2 .forms h2 {
@@ -229,7 +235,7 @@ button:active,
   color: white;
 
   margin-left: -1rem;
-  margin-bottom: 0rem;
+  margin-bottom: 2rem;
 }
 
 .section-2 h2:hover,
@@ -265,7 +271,7 @@ button:active,
 
 .section-3 .services {
   align-items: flex-start;
-  width: 70%;
+  width: 80%;
 }
 
 .section-3 h3 {
@@ -321,7 +327,7 @@ button:active,
   flex-direction: column;
   padding: 0 10rem;
 
-  width:80%
+  width:100%
 }
 
 .staff-member {
@@ -550,7 +556,6 @@ footer {
     flex-direction: column;
   }
 
-
   .section-3 .services {
     width: 120%; /* Your desired width */
   }
@@ -599,7 +604,6 @@ footer {
   /* Your existing styles */
   .section-1,
   .section-2 {
-    flex-wrap: wrap;
     flex-direction: column;
   }
 
