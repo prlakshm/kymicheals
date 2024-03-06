@@ -225,7 +225,6 @@ button:active,
 }
 
 .section-2 .forms {
-  width: 37rem;
   align-items: flex-start;
 }
 
@@ -405,6 +404,7 @@ footer {
   padding: 2rem 10vw;
   width: 100%;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .get-in-touch,
@@ -465,7 +465,8 @@ footer {
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   height: 2rem;
-  width: 17rem;
+  width: 70%;
+
 }
 
 .newsletter input::placeholder {
@@ -555,8 +556,6 @@ footer {
   .section-1, 
   .section-2 {
     padding: 2rem 0;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .section-3,
@@ -598,9 +597,14 @@ footer {
     font-size: 1rem; /* Adjust font size */
   }
 
-  .newsletter input,
-  .newsletter button {
+  .newsletter input {
     font-size: 1rem; /* Adjust font size */
+    width: fit-content;
+  }
+
+  .sign-up-button {
+    font-size: 1rem; /* Adjust font size */
+    width: max-content;
   }
 }
 
@@ -611,13 +615,19 @@ footer {
   .section-2 {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width:100%
   }
+
+  .section-2 .forms {
+    align-items: center;
+    justify-content: center;
+}
 
   .section-3 h3 {
     padding: 0rem 1rem; /* Adjust padding */
   }
 
-  .newsletter input,
   .newsletter button {
     width: 100%; /* Make input and button full width */
   }
@@ -663,7 +673,7 @@ footer {
 
   .newsletter input,
   .newsletter button {
-    font-size: 0.9rem; /* Adjust font size */
+    font-size: 0.7rem; /* Adjust font size */
   }
 
   .copyright-info {
