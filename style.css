@@ -548,12 +548,16 @@ footer {
     flex-direction: column;
   }
 
+  .section-4 {
+    padding: 4rem 0;
+  }
+
   .section-3 .services {
-    width: 130%; /* Your desired width */
+    max-width: 90%;
   }
 
   .staff {
-    width: 140%;
+    max-width: 90%;
   }
 
   /* Add font size adjustments */
@@ -647,15 +651,6 @@ footer {
   .section-3 h3 {
     font-size: 12vh; /* Adjust font size */
   }
-
-  .section-3 .services {
-    width: 200%; /* Your desired width */
-  }
-
-  .staff {
-    width: 200%;
-  }
-
 
   .see-more {
     font-size: 0.9rem; /* Adjust font size */
