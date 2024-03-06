@@ -554,17 +554,16 @@ footer {
 
 /* For screens smaller than 768px */
 @media only screen and (max-width: 768px) {
-  .section-1,
   .section-2 {
-    flex-direction: column;
+    padding: 2rem 0;
   }
 
   .section-3 .services {
-    width: 120%; /* Your desired width */
+    width: 130%; /* Your desired width */
   }
 
   .staff {
-    width: 120%;
+    width: 140%;
   }
 
   /* Add font size adjustments */
