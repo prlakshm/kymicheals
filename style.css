@@ -157,6 +157,7 @@ button:active,
   flex-direction: row;
   padding: 4rem 10vw;
   flex-wrap: wrap-reverse;
+  align-items: center;
   box-sizing: border-box;
 }
 
@@ -220,8 +221,15 @@ button:active,
   padding: 4rem 10vw;
   background-color: #84957E;
   box-sizing: border-box;
+
+  flex-wrap: wrap;
+  align-items: center;
 }
 
+.section-2 .forms {
+  width: 37rem;
+  align-items: flex-start;
+}
 
 .section-2 .forms h2 {
   font-family: 'Kadwa', sans-serif;
@@ -231,7 +239,6 @@ button:active,
   text-decoration: none;
 
   margin-bottom: 2rem;
-  flex-wrap: nowrap;
 }
 
 
