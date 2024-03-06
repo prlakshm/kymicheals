@@ -549,16 +549,9 @@ footer {
     flex-direction: column;
   }
 
+  .section-3,
   .section-4 {
     padding: 4rem 0;
-  }
-
-  .section-3 .services {
-    width: 90%;
-  }
-
-  .staff {
-    width: 90%;
   }
 
   /* Add font size adjustments */
