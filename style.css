@@ -157,7 +157,6 @@ button:active,
   flex-direction: row;
   padding: 4rem 10vw;
   flex-wrap: wrap-reverse;
-  align-items: center;
   box-sizing: border-box;
 }
 
@@ -223,7 +222,6 @@ button:active,
   box-sizing: border-box;
 
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .section-2 .forms {
@@ -555,9 +553,11 @@ footer {
 
 /* For screens smaller than 768px */
 @media only screen and (max-width: 768px) {
+  .section-1, 
   .section-2 {
     padding: 2rem 0;
     flex-direction: column;
+    justify-content: center;
   }
 
   .section-3,
@@ -611,6 +611,7 @@ footer {
   .section-1,
   .section-2 {
     flex-direction: column;
+    align-items: center;
   }
 
   .section-3 h3 {
