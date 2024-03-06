@@ -217,20 +217,11 @@ button:active,
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  align-items: center;
-  padding: 7rem 0rem;
-  background-color: #84957E;
+  padding: 4rem 0;
   flex-wrap: wrap;
+  background-color: #84957E;
 }
 
-.section-2 .content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
-}
 
 .section-2 .forms h2 {
   font-family: 'Kadwa', sans-serif;
@@ -260,6 +251,7 @@ button:active,
   padding: 4rem 0rem;
 }
 
+
 .section-3 h2 {
   font-family: 'Kadwa', sans-serif;
   font-size: 2rem;
@@ -272,7 +264,7 @@ button:active,
 
 .section-3 .services {
   align-items: flex-start;
-  width: 80%;
+  width: 70%;
 }
 
 .section-3 h3 {
@@ -328,7 +320,7 @@ button:active,
   flex-direction: column;
   padding: 0 10rem;
 
-  width:90%
+  width:80%
 }
 
 .staff-member {
@@ -554,16 +546,8 @@ footer {
 @media only screen and (max-width: 768px) {
   .section-2 {
     padding: 2rem 0;
-  }
-
-  .section-2 .content {
-    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
+  }
 
   .section-3 .services {
     width: 130%; /* Your desired width */
@@ -621,10 +605,6 @@ footer {
     flex-direction: column;
   }
 
-  .section-2 .content {
-    flex-direction: column;
-  }
-
   .section-3 h3 {
     padding: 0rem 1rem; /* Adjust padding */
   }
@@ -668,6 +648,11 @@ footer {
   .section-3 h3 {
     font-size: 12vh; /* Adjust font size */
   }
+
+  .staff {
+    width: 160%;
+  }
+
 
   .see-more {
     font-size: 0.9rem; /* Adjust font size */
