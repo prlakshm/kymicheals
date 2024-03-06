@@ -167,7 +167,7 @@ button:active,
   margin: 2rem 0;
 }
 
-.forms h2 {
+.section-1 .forms h2 {
   font-family: 'Kadwa', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
@@ -556,9 +556,14 @@ footer {
     padding: 2rem 0;
   }
 
-  .section-2 .content{
+  .section-2 .content {
+    display: flex;
     flex-direction: column;
-  }
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
 
   .section-3 .services {
     width: 130%; /* Your desired width */
