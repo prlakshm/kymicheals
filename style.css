@@ -226,6 +226,9 @@ button:active,
 .section-2 .content {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
 .section-2 .forms h2 {
@@ -327,7 +330,7 @@ button:active,
   flex-direction: column;
   padding: 0 10rem;
 
-  width:100%
+  width:90%
 }
 
 .staff-member {
