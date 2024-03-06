@@ -553,11 +553,11 @@ footer {
   }
 
   .section-3 .services {
-    max-width: 90%;
+    width: 90%;
   }
 
   .staff {
-    max-width: 90%;
+    width: 90%;
   }
 
   /* Add font size adjustments */
