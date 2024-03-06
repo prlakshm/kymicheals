@@ -250,7 +250,7 @@ button:active,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 5rem;
+  padding: 4rem 0rem;
 }
 
 .section-3 h2 {
@@ -265,7 +265,7 @@ button:active,
 
 .section-3 .services {
   align-items: flex-start;
-  width: 90%;
+  width: 70%;
 }
 
 .section-3 h3 {
@@ -321,7 +321,7 @@ button:active,
   flex-direction: column;
   padding: 0 10rem;
 
-  width:90%
+  width:80%
 }
 
 .staff-member {
@@ -552,16 +552,16 @@ footer {
 
 
   .section-3 .services {
-    width: 100%; /* Your desired width */
+    width: 110%; /* Your desired width */
   }
 
   .staff {
-    width: 100%;
+    width: 110%;
   }
 
   /* Add font size adjustments */
   .title h1 {
-    font-size: 2rem; /* Adjust font size */
+    font-size: 2.5rem; /* Adjust font size */
   }
 
   .search-bar input {
