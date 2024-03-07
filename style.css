@@ -515,7 +515,7 @@ footer {
 }
 
 .socials-divider {
-  width: 100%;
+  width: 93%;
   margin: 0 auto; 
   border: none; 
   border-top: 1px solid white;
@@ -540,7 +540,7 @@ footer {
 }
 
 .copyright-divider {
-  width: 107%; /* Ensure the divider spans the entire width */
+  width: 100%; /* Ensure the divider spans the entire width */
   margin-left: -3rem; 
   padding: 0; 
   border: none; 
