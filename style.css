@@ -490,7 +490,7 @@ footer {
 
 .sign-up-button {
   height: 2.11rem;
-  width: fit-content;
+  width: 6rem;
   background-color: white;
   color: #4E3D42;
   border: 1px solid;
@@ -504,6 +504,7 @@ footer {
 
   display: flex;
   align-items: center; /* Align items vertically */
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -695,7 +696,7 @@ footer {
 
   .sign-up-button {
     font-size: 1rem; /* Adjust font size */
-    width: max-content;
+    width: fit-content;
   }
 }
 
