@@ -4,12 +4,15 @@
 ### Objective:
 The objective of the responsive redesign project was to improve the usability of the Ky Michaels Salon homepage through responsive web design techniques.
 
-### About Salon Homepage:
+In the redesign, all buttons are dummy buttons. This project's purpose is to learn how to build a responsive webpage that accomodates for different screen sizes. Its purpose was also to gain practice coding HTML and CSS by hand, without the help of external libraries or frameworks.
+
 Link to Original Webpage:
 https://kymichaelssalon.com/
 
 Link to my Redesign:
 https://prlakshm.github.io/kymicheals/
+
+### About Salon Homepage:
 
 Ky Michaels Salon is a small business on Wickenden Street in Providence. Their homepage is the first page you see when you click on their website. It lists the salon’s hours, address, and other important information about the salon.
 
@@ -36,20 +39,18 @@ I used speed sketching to think of new designs for my webpage. This technique he
 ### Figma Wireframes:
 Low-fidelity wireframes are basic representations of a digital interface. They map out general layout of sections/objects. I created low-fidelity wireframes at the beginning of my design process using Figma.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6T31bUMoa3eUeC1dS5kesr%2FKy-Michaels-Salon-Low-fi-Wireframes%3Ftype%3Ddesign%26node-id%3D866172%253A448%26mode%3Ddesign%26t%3D38qjxHD8jYnT41Dk-1" allowfullscreen></iframe>
+High-fidelity wireframes are representations of the polished, final design. They employ components of the visual style guide, like fonts, colors, buttons, and input boxes. I also created  high-fidelity wireframes using Figma.
 
-\
-High-fidelity wireframes are representations of the polished, final design. They employ components of the visual style guide, like fonts, colors, buttons, and input boxes. I created  high-fidelity wireframes also using Figma.
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FOZowqnp11BKtcbDdaOVkpK%2FKy-Michaels-Salon-High-fi-Wireframes%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DEQjCd4yVjlotNkUj-1" allowfullscreen></iframe>
 
-\
-The wireframes I made inlcuded versions for desktop, tablet, and mobile phone screen sizes. Desktop is shown above. 
+The wireframes I made inlcuded versions for desktop, tablet, and mobile phone screen sizes. Desktop is shown below (low-fi on left and high-fi on right). 
+
+![Low-Fidelity and High-Fidelity Wireframes](public/wireframes.png)
 
 ### Visual Design Style Guide:
 My style guide details the "look" of my webpage. It mapped out my desired colors, typography, icons, buttons, input feilds.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5Yh2tTQmwG9qobd1fHdYz8%2FKy-Michaels-Salon-Custom-Style-Guide%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DEQjCd4yVjlotNkUj-1" allowfullscreen></iframe>
+![Visual Design Style Guide of Colors, Typography, Text Fields, Buttons, and Icons](public/visual_style_guide.png)
 
 
-#### Check out me redesign here: https://prlakshm.github.io/kymicheals/
+#### Check out my redesign here: https://prlakshm.github.io/kymicheals/
 
