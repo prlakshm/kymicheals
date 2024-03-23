@@ -9,7 +9,7 @@ In the redesign, all buttons are dummy buttons. This project's purpose is to lea
 Link to Original Webpage:
 https://kymichaelssalon.com/
 
-Link to my Redesign:
+#### Link to my Redesign:
 https://prlakshm.github.io/kymicheals/
 
 ### About Salon Homepage:
